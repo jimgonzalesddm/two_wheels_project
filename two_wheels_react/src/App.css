@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Special Elite', cursive;
+	/*font-family: 'Oswald', sans-serif;*/
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+#navName {
+  letter-spacing: 2px;
+}
+
+/*#bikerack-icon {
+	height: 5vh;
+	width: 5vh;
+	border-radius: 100px;
+	background-color: gray;
+}*/
+
+.footer {
+	bottom: 0px;
+	letter-spacing: 2px;
+}
+
+.navLinks {
+	letter-spacing: 2px;
+}
+
+#logoutIcon {
+  vertical-align: middle;
+}
+
+footer .row {
+  width: 100%;
+}
+
+/*media queries*/
+
+/*Mobile Style*/
+/*only screen (media type) --- (max-width)(media feature)*/
+/*only screen only for specific size (max-width)*/
+
+@media only screen and (max-width: 400px)  {
+  #navName small{
+    display: none;;
+  }
+
+}

@@ -1,0 +1,30 @@
+.bikeRack-jumbotron {
+	background-image: url(../images/favicon.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	background-attachment: fixed;
+	margin-bottom: 0px;
+	height: 100vh;
+}
+
+.bikeRack-table {
+	width: 80vh;
+}
+
+.date-div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.dates-input:invalid+span:after {
+    content: '✖';
+    padding-left: 5px;
+}
+
+.dates-input:valid+span:after {
+    content: '✓';
+    padding-left: 5px;
+}

@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+}
+
+.backdrop {
+	background-image: url(../images/cycling.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+	background-attachment: fixed;
+	background-color: rgb(219, 216, 202);
+	/*background-image: linear-gradient(to bottom, rgba(219, 216, 202, 0.8), rgba(219, 216, 202, 1));*/
+	 
+}
+
+
+.login-field {
+	height: 70vh;
+	margin-right: 0;
+}
+
+.create-text {
+	letter-spacing: 2px;
+}
+
+
+
+/*media queries*/
+
+/*Mobile Style*/
+/*only screen (media type) --- (max-width)(media feature)*/
+/*only screen only for specific size (max-width)*/
+
+@media only screen and (max-width: 400px) {
+	.backdrop {
+		background-size: cover;
+		padding-right: 0px;
+	}
+	
+	.backdrop form,
+	.backdrop h1 {
+		background-color: #fff;
+		text-align: center;
+		padding: 5%;
+		border-radius: 5px;
+	}
+}
+
+
+/*tablet style*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.backdrop {
+		background-size: cover;
+		padding-right: 0px;
+		height: 90vh;
+	}
+	
+	.backdrop form,
+	.backdrop h1 {
+		background-color: #fff;
+		text-align: center;
+		padding: 5%;
+		border-radius: 5px;
+	}
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  	.backdrop {
+		background-size: cover;
+		padding-right: 0px;
+		height: 85vh;
+	}
+	
+	.backdrop form,
+	.backdrop h1 {
+		background-color: #fff;
+		text-align: center;
+		padding: 5%;
+		border-radius: 5px;
+	}
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  	.backdrop {
+		background-size: cover;
+		padding-right: 0px;
+		height: 80vh;
+	}
+	
+	.backdrop form,
+	.backdrop h1 {
+		background-color: #fff;
+		text-align: center;
+		padding: 5%;
+		border-radius: 5px;
+	}
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  	.backdrop {
+		background-size: cover;
+		padding-right: 0px;
+		height: 87vh;
+	}
+	
+	.backdrop form,
+	.backdrop h1 {
+		background-color: #fff;
+		text-align: center;
+		padding: 5%;
+		border-radius: 5px;
+	}
+}
+/*@media only screen and (min-width: 960px) and (max-width: 1020px) {
+	.backdrop {
+		background-size: cover;
+		padding-right: 0px;
+		height: 90vh;
+	}
+	
+	.backdrop form,
+	.backdrop h1 {
+		background-color: #fff;
+		text-align: center;
+		padding: 5%;
+		border-radius: 5px;
+	}
+}*/
+
+

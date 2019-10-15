@@ -1,0 +1,24 @@
+.bike-img-rental {
+	height: 80px;
+	width: 100px;
+}
+
+.updateBtn {
+	width: 100%;
+}
+
+.card-staff-rental {
+	height: 55vh;
+	margin-top: 10px;
+	background-color: white;
+}
+
+.jumbotron-rentals {
+	height: 200vh;
+}
+
+.card-customer-rental {
+	height: 35vh;
+	background-color: rgb(219, 216, 202);
+	margin-top: 10px;
+}

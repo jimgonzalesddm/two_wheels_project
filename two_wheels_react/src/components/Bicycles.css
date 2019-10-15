@@ -1,0 +1,74 @@
+.bike-cards-div {
+	width: 85%;
+}
+
+.img-link {
+	height: 30vh;
+	width: 80%;
+}
+
+.img-link:hover,
+.img-link-folding:hover {
+	-ms-transform: rotate(20deg); /* IE 9 */
+	-webkit-transform: rotate(20deg); /* Safari 3-8 */
+	transform: rotate(20deg);
+}
+
+.img-link-folding {
+	height: 35vh;
+	width: 100%;
+}
+
+#refer-sizes {
+	color: rgb(48, 47, 43);
+	text-decoration: none;
+	text-shadow: 2px 2px rgb(237, 220, 164);	
+	writing-mode: vertical-rl; 
+}
+
+#refer-sizes:hover {
+	text-decoration: line-through;
+}
+
+.nav-link-bikes {
+	text-shadow: 2px 2px rgb(237, 220, 164);
+	font-size: 150%;
+}
+
+.nav-link-bikes:hover {
+	text-decoration: line-through;
+}
+
+/*Mobile Style*/
+/*only screen (media type) --- (max-width)(media feature)*/
+/*only screen only for specific size (max-width)*/
+
+@media only screen and (max-width: 400px) {
+	.bikes-jumbotron {
+		padding: 0px;
+	}
+
+	.img-link {
+		width: 100%;
+	}
+
+	.bike-cards-div {
+		width: 100%;
+	}
+
+	.bike-cards-div .jumbotron {
+		width: 100%;
+	}
+
+	#refer-sizes {
+		width: 10%;
+	}
+
+	.touring-road a,
+	.mountain-folding a {
+		height: 30vh;
+	}
+
+}
+
+

@@ -1,0 +1,131 @@
+.jumbotron-create-account {
+	position: relative;
+	height: 100vh;
+	background-color: rgb(219, 216, 202);
+	margin-bottom: 0px;
+}
+#create-account-field {
+	font-family: 'Oswald', sans-serif;
+	position: absolute;
+	left: 25%;
+	top: 5vh;
+	margin-left: 0px;
+}
+
+.jumbotron-create-account h1 {
+	writing-mode: vertical-rl; 
+	position: absolute;
+	left: 20%;
+	top: 15vh;
+	text-shadow: 2px 2px rgb(237, 220, 164);
+}
+
+#create-acct-image {
+	background-image: url(../images/asphalt-bike.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 25vh;
+	margin-top: 25vh;
+}
+
+
+
+/*media queries*/
+
+/*Mobile Style*/
+/*only screen (media type) --- (max-width)(media feature)*/
+/*only screen only for specific size (max-width)*/
+
+@media only screen and (max-width: 400px) {
+	#create-account-field {
+		left: 0%;
+		top: 0vh;
+		margin-left: 0px;
+	}
+	.jumbotron-create-account h1 {
+		display: none;
+	}
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	#create-account-field {
+		left: 0%;
+		top: 0vh;
+		margin-left: 0px;
+	}
+	.jumbotron-create-account h1 {
+		display: none;
+	}
+	#create-account-field small {
+  		display: none;
+  	}
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	#create-account-field {
+		left: 0%;
+		top: 0vh;
+		margin-left: 0px;
+	}
+	.jumbotron-create-account h1 {
+		display: none;
+	}
+	#create-account-field small {
+  		display: block;
+  	}
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+  	#create-account-field {
+		left: 0%;
+		top: 0vh;
+		margin-left: 0px;
+	}
+	.jumbotron-create-account h1 {
+		display: none;
+	}
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+  	#create-account-field {
+		top: 10vh;
+	}
+}
+
+/*tablet style*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	#create-account-field {
+		top: 10vh;
+	}
+}
+
+
+
+
+
+

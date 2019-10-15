@@ -1,0 +1,202 @@
+
+
+#header {
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	border-radius: 0;
+	color: rgb(219, 216, 202);
+	margin-bottom: 0;
+}
+
+#exploreArrowDown:hover {
+	cursor: pointer;
+}
+
+.bike-for-rent-div {
+	background-image: url(../images/unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	background-attachment: scroll;
+	height: 100vh;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 100px;
+	
+}
+
+.bike-for-rent-left {
+	width: 70vh;
+	letter-spacing: 2px;
+}
+
+#bike-for-rent-img {
+	height: 50vh;
+}
+
+.categoryCard {
+	height: 30vh;
+	width: 25%;
+	border-radius: 0px;
+}
+
+.categoryCard #cc-mountain {
+	width: 100%;
+}
+
+.categoryCard img {
+	height: 100%;
+}
+
+.accessories {
+	position: relative;
+	height: 100vh;
+	border-radius: 0px;
+	margin-top: 10%;
+	letter-spacing: 3px;
+	padding-bottom: 10%;
+	/*margin-bottom: 0px;*/
+	/*background-color: rgb(255, 255, 255);*/
+}
+
+.helmet,
+.light,
+.bottle-cage {
+	height: 25vh;
+	width: 15%;
+	position: absolute;
+}
+
+.helmet {
+	left: 40%;
+	top: 25vh;
+	z-index: 3;
+}
+
+.light {
+	left: 55%;
+	top: 30vh;
+	z-index: 1;
+}
+
+.bottle-cage {
+	left: 30%;
+	top: 30vh;
+	z-index: 2;
+}
+
+.accessories-cap {
+	height: 25vh;
+	width: 60%;
+	position: absolute;
+	left: 20%;
+	top: 65vh;
+	font-size: 1.10em;
+	word-spacing: 2px;
+}
+
+#brandlogo-giant {
+	height:5vh;
+	width: 15%;
+}
+
+#brandlogo-kona {
+	height: 25vh;
+	width: 15%;
+}
+
+#brandlogo-specialized {
+	height: 30vh;
+	width: 20%;
+}
+
+#brandlogo-cannondale {
+	height: 20vh;
+	width: 15%;
+}
+
+#brandlogo-cube {
+	height: 10vh;
+	width: 15%;
+}
+
+.brandlogos {
+	background-color: rgb(255, 255, 255);
+	margin-bottom: 0px;
+}
+
+
+
+/*media queries*/
+
+/*Mobile Style*/
+/*only screen (media type) --- (max-width)(media feature)*/
+/*only screen only for specific size (max-width)*/
+
+@media only screen and (max-width: 400px) {
+	#header h1 {
+		text-align: right;
+		/*padding-right: 10px;*/
+	}
+
+	.bike-for-rent-div {
+		background-size: cover;
+		color: #fff;
+		text-shadow: 2px 2px #000;
+		text-align: right;
+	}
+
+	.categoryCard {
+		width: 50%;
+	}
+
+	.helmet,
+	.light,
+	.bottle-cage {
+		width: 30%;
+	}
+
+	.helmet {
+		left: 30%;
+	}
+
+	.light {
+		left: 60%;
+	}
+
+	.bottle-cage {
+		left: 10%;
+	}
+
+	.accessories-cap {
+		left: 9vh;
+		width: 70%;
+		font-size: .60em;
+	}	
+}
+
+
+
+
+/*tablet style*/
+@media only screen and (min-width: 401px) and (max-width: 960px)  {
+	.bike-for-rent-div {
+		background-size: cover;
+		color: #fff;
+		text-shadow: 2px 2px #000;
+		text-align: right;
+	}
+}
+
+
+
+
+
+
+
+
+
+
